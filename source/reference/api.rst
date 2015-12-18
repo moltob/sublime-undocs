@@ -215,7 +215,8 @@ module :py:mod:`sublime_plugin`
                     the completion list after all plugins have been processed.
 
                 ``sublime.INHIBIT_EXPLICIT_COMPLETIONS``
-                    XXX What does this do?
+                    Prevents adding completions from completion files
+                    (see :doc:`/reference/completions`).
 
                 Flags are shared among all completions, once set by one
                 plugin you can not revert them.
